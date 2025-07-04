@@ -1,21 +1,19 @@
-# TikiTaka
-Spring Boot 기반 연애 상대 매칭 웹사이트
+# ColorTripPalette
+오픈 API 기반 여행지 추천 Android 애플리케이션
 
 ## 🛠️ 개발 환경 및 기술
-- Java 17
-- Spring Boot, Spring MVC
-- JSP, JSTL
-- Oracle DB
-- Maven
+- Kotlin
+- Android Studio
+- Google Map API
+- 한국관광공사 TourAPI
 
 ## 🎯 주요 기능 및 역할
-- 회원가입: 기본 정보 및 이상형 정보 입력, DB 저장
-- 로그인 및 세션 관리
-- 마이페이지: 회원 정보 및 이상형 정보 조회/수정
-- 매칭 기능: 매칭 요청, 거절, 수락 관리
-- 이메일, 전화번호를 통한 회원 인증 및 관리
+- 주변 관광지 추천: 내 위치 기반으로 추천 장소 리스트 제공
+- 특정 지역 관광지 조회
+- Google Map 지도 연동 및 마커 표시
+- 관광지 상세 정보 및 리뷰 저장 기능
+- 리뷰를 SQLite에 저장하고 RecyclerView로 출력
 
 ## 🔗 프로젝트 특징
-- DB Entity 및 DTO 기반으로 회원 및 이상형 데이터 분리 관리
-- 세션 기반 사용자 인증 처리
-- JSP를 통한 서버 사이드 렌더링
+- LBS 기반 현재 위치 찾기
+- OPEN API 활용 실습 프로젝트
